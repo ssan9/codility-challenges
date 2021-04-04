@@ -1,3 +1,9 @@
+// O(n) solution of the product of array except self
+Time Complexity: O(n). 
+The array needs to be traversed two times, so the time complexity is O(n).
+Space Complexity: O(n). 
+One array to store the output is needed so the space complexity is O(n)
+
 function solution(nums) {
   let arr = [];
   let product = 1;
